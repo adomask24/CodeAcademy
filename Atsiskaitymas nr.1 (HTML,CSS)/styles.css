@@ -1,0 +1,140 @@
+#searchbox{
+    height: 3%;
+     width: 300px;
+     background-image:url("images/mglass.svg");
+     background-repeat:no-repeat;
+     background-position: 1px 1px;
+     text-align: center;
+     padding: 10px 0px 10px 0px;
+}
+header {
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+  }
+  #tnt{
+    width: 100px;
+  }
+
+  body, html {
+    height: 100%;
+}
+
+
+.hero-image {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("Images/forest1.jpg");
+
+ 
+  height: 100%;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#people{
+  border-radius: 50%; 
+  width: 200px;
+  height: 200px;
+  filter: grayscale(60%);
+}
+#yellow{
+  height: 10px;
+  background-color: rgb(29, 112, 8);
+}
+footer{
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+
+}
+footer h1 {
+  color: rgb(29, 112, 8);
+}
+footer h2{
+  line-height: 0mm;
+  color:white;
+  font-weight: lighter;
+}
+p{
+  text-indent: 50px;
+}
+content h1{
+  color: rgb(29, 112, 8);
+  text-align: center;
+}
+.flex-container1{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+content p{
+  text-align: center;
+}
+.flex-container2{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+}
+.flex-container3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.flex-container3 h2{
+  color: rgb(29, 112, 8);
+}
+
+.flex-container4{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0px 200px 100px -50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 1000px) {
+  .flex-container2 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+  }
+
+  .flex-container1{
+    margin-top: -100px;
+  }
+
+  .flex-container3{
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+  }
+  .txt {
+    margin-right: 50px;
+  }
+
+  .flex-container4{
+    margin: 0px 0px 0px 0px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  header {
+    height: 100px;
+  }
+}
